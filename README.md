@@ -1,1 +1,10 @@
 # WebAutoTests
+"Microsoft.NET.Test.Sdk" Version="17.7.0"
+"NUnit" Version="3.13.3"
+"NUnit.Console" Version="3.16.3"
+"NUnit.ConsoleRunner" Version="3.16.3"
+"NUnit3TestAdapter" Version="4.5.0"
+"Selenium.WebDriver" Version="4.11.0"
+"Selenium.WebDriver.ChromeDriver" Version="115.0.5790.17000"
+"SpecFlow" Version="3.9.74"
+"SpecFlow.NUnit" Version="3.9.74"
