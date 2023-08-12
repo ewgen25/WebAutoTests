@@ -1,0 +1,110 @@
+{
+  "uuid": "927027c6d2eb4ce886e1029f7b49998f",
+  "historyId": "Creating an account with missing information",
+  "fullName": "Creating an account with missing information",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "User Registration"
+    }
+  ],
+  "links": [],
+  "name": "Creating an account with missing information",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the registration page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678035,
+      "stop": 1691859678044
+    },
+    {
+      "name": "And  I have received a code \"123456\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678044,
+      "stop": 1691859678055
+    },
+    {
+      "name": "When  I enter a valid verification code",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678055,
+      "stop": 1691859678060
+    },
+    {
+      "name": "And  I enter missing name, surname, or password",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678061,
+      "stop": 1691859678068
+    },
+    {
+      "name": "Then  the \"Create new account\" button should be disabled",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678068,
+      "stop": 1691859678074
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859678035,
+  "stop": 1691859678110
+}

@@ -1,0 +1,95 @@
+{
+  "uuid": "e5d54e1d04f544af8e4bd4cb0c0ac41e",
+  "historyId": "Unregistered phone number shows hint and keeps login button inactive",
+  "fullName": "Unregistered phone number shows hint and keeps login button inactive",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "Login Page Behavior"
+    }
+  ],
+  "links": [],
+  "name": "Unregistered phone number shows hint and keeps login button inactive",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677220,
+      "stop": 1691859677231
+    },
+    {
+      "name": "When  I enter unregistered phone number \"+7(999)999-99-99\" and password \"SomePassword123\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677231,
+      "stop": 1691859677236
+    },
+    {
+      "name": "Then  the login button should be inactive",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677237,
+      "stop": 1691859677243
+    },
+    {
+      "name": "And  I should see the message \"This phone number is not registered\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677243,
+      "stop": 1691859677250
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859677220,
+  "stop": 1691859677275
+}

@@ -1,0 +1,110 @@
+{
+  "uuid": "29bfa91c56c346038080386a1b43607a",
+  "historyId": "Resetting password with a strong password",
+  "fullName": "Resetting password with a strong password",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "Password Recovery"
+    }
+  ],
+  "links": [],
+  "name": "Resetting password with a strong password",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the password reset page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677853,
+      "stop": 1691859677864
+    },
+    {
+      "name": "When  I enter a strong new password \"NewStrongPassword123\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677864,
+      "stop": 1691859677874
+    },
+    {
+      "name": "And  I confirm the new password",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677874,
+      "stop": 1691859677884
+    },
+    {
+      "name": "And  I click the \"Reset Password\" button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677884,
+      "stop": 1691859677889
+    },
+    {
+      "name": "Then  I should see the message \"Password reset successful\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677889,
+      "stop": 1691859677895
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859677853,
+  "stop": 1691859677933
+}

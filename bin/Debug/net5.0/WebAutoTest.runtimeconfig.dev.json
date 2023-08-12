@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ewgen\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ewgen\\.nuget\\packages"
+    ]
+  }
+}

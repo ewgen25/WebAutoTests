@@ -1,0 +1,110 @@
+{
+  "uuid": "330276a4f8d04e0f88fbe8d8e182728e",
+  "historyId": "Requesting a verification code",
+  "fullName": "Requesting a verification code",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "User Registration"
+    }
+  ],
+  "links": [],
+  "name": "Requesting a verification code",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the registration page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678337,
+      "stop": 1691859678344
+    },
+    {
+      "name": "When  I enter a valid phone number \"+7(111)111-11-11\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678344,
+      "stop": 1691859678349
+    },
+    {
+      "name": "And  I click the \"Send Code\" button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678349,
+      "stop": 1691859678354
+    },
+    {
+      "name": "Then  the \"Send Code\" button should be enabled",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678354,
+      "stop": 1691859678361
+    },
+    {
+      "name": "And  the verification code input field should become enabled",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678361,
+      "stop": 1691859678367
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859678337,
+  "stop": 1691859678404
+}

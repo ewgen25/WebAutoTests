@@ -1,0 +1,95 @@
+{
+  "uuid": "47c8b5653452456e8ffde87df499dde5",
+  "historyId": "Entering a valid recovery code",
+  "fullName": "Entering a valid recovery code",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "Password Recovery"
+    }
+  ],
+  "links": [],
+  "name": "Entering a valid recovery code",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the recovery code page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677590,
+      "stop": 1691859677599
+    },
+    {
+      "name": "When  I enter a valid recovery code received via SMS",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677599,
+      "stop": 1691859677605
+    },
+    {
+      "name": "And  I click the \"Submit Code\" button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677605,
+      "stop": 1691859677612
+    },
+    {
+      "name": "Then  I should be directed to the password reset page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677612,
+      "stop": 1691859677617
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859677590,
+  "stop": 1691859677665
+}

@@ -1,0 +1,125 @@
+{
+  "uuid": "41a450fa924b432aab40c744865e11bf",
+  "historyId": "Requesting password recovery with a registered phone number",
+  "fullName": "Requesting password recovery with a registered phone number",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "Password Recovery"
+    }
+  ],
+  "links": [],
+  "name": "Requesting password recovery with a registered phone number",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677729,
+      "stop": 1691859677736
+    },
+    {
+      "name": "When  I click on the \"Forgot Password?\" link",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677736,
+      "stop": 1691859677741
+    },
+    {
+      "name": "And  I enter a registered phone number \"+7(111)111-11-11\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677741,
+      "stop": 1691859677746
+    },
+    {
+      "name": "And  I click the \"Send Recovery Code\" button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677746,
+      "stop": 1691859677753
+    },
+    {
+      "name": "Then  the \"Send Recovery Code\" button should be enabled",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677753,
+      "stop": 1691859677767
+    },
+    {
+      "name": "And  I should receive a recovery code on my phone",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677767,
+      "stop": 1691859677776
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859677729,
+  "stop": 1691859677852
+}

@@ -1,0 +1,95 @@
+{
+  "uuid": "ce0af99244824336b3363db99b2aeb10",
+  "historyId": "Filling out all fields and creating an account",
+  "fullName": "Filling out all fields and creating an account",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "User Registration"
+    }
+  ],
+  "links": [],
+  "name": "Filling out all fields and creating an account",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the registration page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678208,
+      "stop": 1691859678217
+    },
+    {
+      "name": "And  I have received a verification code \"123456\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678217,
+      "stop": 1691859678224
+    },
+    {
+      "name": "When  I enter a valid name, surname, password, and correct verification code",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678225,
+      "stop": 1691859678231
+    },
+    {
+      "name": "Then  the \"Create Account\" button should become enabled",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678232,
+      "stop": 1691859678241
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859678208,
+  "stop": 1691859678291
+}

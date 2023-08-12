@@ -1,0 +1,80 @@
+{
+  "uuid": "ee21f0900b0747e8b54847383405f8f9",
+  "historyId": "Inactive login button with one field empty",
+  "fullName": "Inactive login button with one field empty",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "Login Page Behavior"
+    }
+  ],
+  "links": [],
+  "name": "Inactive login button with one field empty",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677169,
+      "stop": 1691859677183
+    },
+    {
+      "name": "When  I enter phone number \"+7(111)111-11-11\" and password \"\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677183,
+      "stop": 1691859677193
+    },
+    {
+      "name": "Then  the login button should be inactive",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677193,
+      "stop": 1691859677199
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859677169,
+  "stop": 1691859677219
+}

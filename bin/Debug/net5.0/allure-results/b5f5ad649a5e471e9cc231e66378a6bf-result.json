@@ -1,0 +1,64 @@
+{
+  "uuid": "4f2c2ad84dfe4be1859395bcb0fd9ad6",
+  "historyId": "Verify the welcome message changes based on the time of day",
+  "fullName": "Verify the welcome message changes based on the time of day",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "WelcomeMessage"
+    }
+  ],
+  "links": [],
+  "name": "Verify the welcome message changes based on the time of day",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the website \"https://my.life-pos.ru/auth/login\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678481,
+      "stop": 1691859683570
+    },
+    {
+      "name": "Then  I verify the welcome message changes based on time of day",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859683570,
+      "stop": 1691859683803
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859678481,
+  "stop": 1691859683804
+}

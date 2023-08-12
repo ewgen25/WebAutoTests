@@ -1,0 +1,110 @@
+{
+  "uuid": "0e10760aeede4792934fa1999dfdc2dd",
+  "historyId": "Requesting password recovery with an unregistered phone number",
+  "fullName": "Requesting password recovery with an unregistered phone number",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "Password Recovery"
+    }
+  ],
+  "links": [],
+  "name": "Requesting password recovery with an unregistered phone number",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677666,
+      "stop": 1691859677675
+    },
+    {
+      "name": "When  I click on the \"Forgot Password?\" link",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677675,
+      "stop": 1691859677680
+    },
+    {
+      "name": "And  I enter an unregistered phone number \"+7(999)999-99-99\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677681,
+      "stop": 1691859677686
+    },
+    {
+      "name": "Then  the \"Send Recovery Code\" button should be disabled",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677686,
+      "stop": 1691859677691
+    },
+    {
+      "name": "And  I should see the message \"This phone number is not registered\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677691,
+      "stop": 1691859677698
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859677666,
+  "stop": 1691859677728
+}

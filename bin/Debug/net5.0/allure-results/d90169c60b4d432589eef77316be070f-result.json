@@ -1,0 +1,110 @@
+{
+  "uuid": "e06dd2a49f544601928dfc5acf518f96",
+  "historyId": "Entering a correct verification code",
+  "fullName": "Entering a correct verification code",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "User Registration"
+    }
+  ],
+  "links": [],
+  "name": "Entering a correct verification code",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the registration page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678116,
+      "stop": 1691859678134
+    },
+    {
+      "name": "And  I have received a verification code \"123456\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678134,
+      "stop": 1691859678144
+    },
+    {
+      "name": "When  I enter the correct verification code",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678144,
+      "stop": 1691859678151
+    },
+    {
+      "name": "And  I fill out all other fields",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678151,
+      "stop": 1691859678158
+    },
+    {
+      "name": "Then  the \"Create Account\" button should become enabled",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859678158,
+      "stop": 1691859678167
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859678115,
+  "stop": 1691859678207
+}

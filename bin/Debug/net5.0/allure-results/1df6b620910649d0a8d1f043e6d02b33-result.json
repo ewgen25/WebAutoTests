@@ -1,0 +1,110 @@
+{
+  "uuid": "9bdf8602d649486eb19e4e0d990b270b",
+  "historyId": "Unsuccessful login with correct phone number but wrong password",
+  "fullName": "Unsuccessful login with correct phone number but wrong password",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-NF4GJ9SD"
+    },
+    {
+      "name": "feature",
+      "value": "Login Page Behavior"
+    }
+  ],
+  "links": [],
+  "name": "Unsuccessful login with correct phone number but wrong password",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677276,
+      "stop": 1691859677285
+    },
+    {
+      "name": "When  I enter valid phone number \"+7(111)111-11-11\" and password \"IncorrectPassword\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677285,
+      "stop": 1691859677295
+    },
+    {
+      "name": "And  I click the login button",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677295,
+      "stop": 1691859677307
+    },
+    {
+      "name": "Then  I should not be logged in",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677307,
+      "stop": 1691859677315
+    },
+    {
+      "name": "And  I should see the message \"Error: Incorrect phone number or password entered\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1691859677315,
+      "stop": 1691859677320
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691859677276,
+  "stop": 1691859677359
+}
